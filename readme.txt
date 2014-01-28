@@ -1,4 +1,4 @@
-# IME Ready Taxonomy
+=== IME Ready Taxonomy ===
 
 Tags: tag, taxonomy, IME  
 Contributors: Takahashi_Fumiki  
@@ -10,39 +10,39 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
 Enhanced WordPress UI for taxonomy. Don't hesitate to press enter key!
 
-## Description
+== Description ==
 
 Default WordPress UIs for unhierarchical taxonomy(e.g. Post Tag) is too impatient. They rash to fix taxonomy before finish input with IME.
 
 On the other hands, this plugin carefully wait your typing. You don't have to worry about pressing enter key.
 
-### Additional feature
+= Additional feature =
 
 * Better increamental search. Default provides begins-with match, this plugin does partial match.
 
-### Fork this
+= Fork this =
 
 This plugin is hosted on [Github.com](https://github.com/hametuha/ime-ready-taxonomy). You can feel free to fork it.
 
 
-## Changelog
+== Changelog ==
 
-### 1.0
+= 1.0 =
 
 * First release
 
-## Upgrade Notice
+== Upgrade Notice ==
 
-### 1.0
+= 1.0 =
 
 * Nothing
 
-## Installation
+== Installation ==
 
 1. Unzip and Upload to your plugins folder, usually `wp-content/plugins/`
 2. Activate the plugin on the plugin screen.
 3. That's it. On edit screen, taxonomy UI will be changed. Enjoy it.
 
-## Screenshots
+== Screenshots ==
 
 1. New UI looks like above.
