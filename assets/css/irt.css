@@ -1,0 +1,6 @@
+/**
+ * User style
+ */
+/* line 6, ../sass/irt.scss */
+#poststuff .tagsdiv .jaxtag, #poststuff .tagsdiv .tagchecklist {
+  display: none; }

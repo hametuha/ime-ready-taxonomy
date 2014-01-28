@@ -1,0 +1,27 @@
+/**
+ * IRT's css variables
+ *
+ * @package IRT
+ */
+
+// Container color
+$container-border: #ddd;
+$container-bg: #fff;
+
+// Token color
+$token-text: #333;
+$token-bg: #ccd5e4;
+$token-border: #ccd5e4;
+$token-close-color: #a6b3cf;
+$token-color-active: #fff;
+$token-bg-active: #0074a2;
+$token-border-active: $token-bg-active;
+$token-color-active: #fff;
+$token-close-color-active: #fff;
+
+// Dropdown color
+$dropdown-border: $container-border;
+$dropdown-bg: #f9f9f9;
+$dropdown-color: #777;
+$dropdown-bg-active: $token-bg-active;
+$dropdown-color-active: #fff;
