@@ -39,13 +39,14 @@ jQuery(document).ready(function($){
          */
         updateTagValue = function(elt, input){
             var list = $(input).tokenInput('get'),
+                textArea = $('#tax-input-' + getTaxonomy(elt)),
                 chars = [];
             $.each(list, function(index, item){
                 if(chars.indexOf(item.name)){
                     chars.push(item.name);
                 }
             });
-            $(elt).find('textarea.the-tags').val(chars.join(','));
+            textArea.val(chars.join(','));
         },
 
         /**
