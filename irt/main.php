@@ -16,7 +16,7 @@ class Main extends Singleton
     /**
      * @var string Version
      */
-    protected $version = IRT_VERSION;
+    protected $version = \IRT_VERSION;
 
 	/**
 	 * Action name used for Ajax and nonce
@@ -93,7 +93,7 @@ EOS;
                         $return = $wpdb->get_results($wpdb->prepare($sql, $taxonomy->name, $query));
                         array_push($return, array(
                             'id' => 0,
-                            'name' => '[+] '.sprintf(__('Create new %s', IRT_DOMAIN), $taxonomy->labels->singular_name),
+                            'name' => '[+] '.sprintf(__('Create new %s', \IRT_DOMAIN), $taxonomy->labels->singular_name),
                         ));
                     }
                     break;
@@ -136,9 +136,9 @@ EOS;
 				'action' => $this->action,
                 'nonceKey' => $this->nonce_key,
 				'nonceValue' => wp_create_nonce($this->nonce_key),
-				'hintText' => __('Input and search.', IRT_DOMAIN),
-				'noResultsText' => __('Not found.', IRT_DOMAIN),
-				'searchingText' => __('Searching...', IRT_DOMAIN),
+				'hintText' => __('Input and search.', \IRT_DOMAIN),
+				'noResultsText' => __('Not found.', \IRT_DOMAIN),
+				'searchingText' => __('Searching...', \IRT_DOMAIN),
 			));
 			wp_enqueue_style('irt');
 		}
