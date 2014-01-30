@@ -12,7 +12,7 @@ Enhanced WordPress UI for taxonomy. Don't hesitate to press enter key!
 
 ## Description
 
-Default WordPress UIs for unhierarchical taxonomy(e.g. Post Tag) is too impatient. They rash to fix taxonomy before finish input with IME.
+Default WordPress UIs for unhierarchical taxonomy(e.g. Post Tag) are too impatient. They rash to fix taxonomy before finish input with IME.
 
 On the other hands, this plugin carefully wait your typing. You don't have to worry about pressing enter key.
 
