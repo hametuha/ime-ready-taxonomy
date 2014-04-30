@@ -114,7 +114,7 @@ EOS;
         $prefix = WP_DEBUG ? '.min' : '';
         $base = plugin_dir_url(dirname(__FILE__)).'assets';
         // Token input
-        wp_register_script('jquery-tokeninput', $base."/js/jquery.tokeninput{$prefix}.js", array('jquery'), '1.6.1');
+        wp_register_script('jquery-tokeninput', $base."/js/jquery.tokeninput{$prefix}.js", array('jquery'), '1.6.1.1');
         // Token CSS
         wp_register_style('jquery-tokeninput-mp6', $base."/css/token-input-mp6.css", null, $this->version);
         // User script

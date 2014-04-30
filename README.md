@@ -2,9 +2,9 @@
 
 Tags: tag, taxonomy, IME  
 Contributors: Takahashi_Fumiki  
-Tested up to: 3.8  
+Tested up to: 3.9  
 Requires at least: 3.8  
-Stable Tag: 1.0  
+Stable Tag: 1.1  
 License: GPLv3 or later  
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt  
 
@@ -29,11 +29,17 @@ This plugin is hosted on [Github.com](https://github.com/hametuha/ime-ready-taxo
 
 ## Changelog
 
+### 1.1
+
+* Fixed jQuery TokenInput's [firefox bug](https://github.com/loopj/jquery-tokeninput/issues/137) by Mr.Uesugi's suggestion.
+
 ### 1.0
 
 * First release
 
 ## Upgrade Notice
+
+If nothing is listed for your next version, don't be afraid of upgrading! The newer is the better!
 
 ### 1.0
 
