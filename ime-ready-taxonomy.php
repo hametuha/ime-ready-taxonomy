@@ -4,7 +4,7 @@ Plugin Name: IME Ready Taxonomy
 Plugin URI: http://wordpress.org/plugins/ime-ready-taxonomy
 Description: Enhanced WordPress UI for taxonomy. Don't hesitate to press enter key!
 Author: Takahashi Fumiki
-Version: 1.0
+Version: 1.1
 Author URI: http://takahashifumiki.com
 Author Email: takahashi.fumiki@hametuha.co.jp
 Text Domain: ime-ready-taxonomy
@@ -20,7 +20,7 @@ defined('ABSPATH') or die();
  *
  * @const string
  */
-define('IRT_VERSION', '1.0');
+define('IRT_VERSION', '1.1');
 
 /**
  * Plugin's i18n domain

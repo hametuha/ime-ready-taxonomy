@@ -1,4 +1,4 @@
-/*
+/**!
  * jQuery Plugin: Tokenizing Autocomplete Text Entry
  * Version 1.6.1
  *
@@ -273,6 +273,23 @@
                 token_list.removeClass($(input).data("settings").classes.focused);
             })
             .bind("keyup keydown blur update", resize_input)
+            .keyup(function (event) {
+                // For Firefox bug.
+                // @link https://github.com/loopj/jquery-tokeninput/issues/137
+                switch(event.keyCode){
+                    case KEY.LEFT:
+                    case KEY.RIGHT:
+                    case KEY.UP:
+                    case KEY.DOWN:
+                        // Do nothing.
+                        break;
+                    default:
+                        setTimeout(function(){
+                            do_search();
+                        }, 5);
+                        break;
+                }
+            })
             .keydown(function (event) {
                 var previous_token;
                 var next_token;
